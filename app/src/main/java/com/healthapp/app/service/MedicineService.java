@@ -13,7 +13,7 @@ public class MedicineService {
                 .defaultSystem("You are a medical expert...")
                 // Yahan model ko force kar do
                 .defaultOptions(org.springframework.ai.google.genai.GoogleGenAiChatOptions.builder()
-                        .model("gemini-1.5-flash")
+                        .model("gemini-2.0-flash-exp")
                         .build())
                 .build();
     }
